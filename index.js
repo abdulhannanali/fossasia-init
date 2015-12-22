@@ -5,8 +5,11 @@ var HOST = process.env.HOST || "0.0.0.0"
 
 var app = express()
 
+app.set("views", __dirname + "/views")
+app.set("view engine", "jade")
+
 app.use(function (req, res, next) {
-  res.send("Hello Fossasia!")
+  res.render("index", {});
 })
 
 app.listen(PORT, HOST, function (error) {
