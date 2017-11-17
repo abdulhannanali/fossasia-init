@@ -1,4 +1,6 @@
 # fossasia-init
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/abdulhannanali/fossasia-init.svg)](https://greenkeeper.io/)
 made as a part of fossasia beginner task
 live demo: https://dry-mesa-6280.herokuapp.com/
 
